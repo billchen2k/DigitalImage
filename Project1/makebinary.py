@@ -3,6 +3,7 @@ from PIL import Image
 im = Image.open("./Trump.jpg")
 #转成灰度图像
 tmp = im.convert('L')
+
 #设置阀值，大于 threshold 为黑色
 threshold = 110
 pic = []
