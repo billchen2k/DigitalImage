@@ -1,0 +1,14 @@
+matplotlib.pyplot.hist(x, bins=None, range=None, density=False, weights=None, cumulative=False, bottom=None, histtype='bar', align='mid', orientation='vertical', rwidth=None, log=False, color=None, label=None, stacked=False, *, data=None, **kwargs)
+
+图像梯度 边缘检测
+图像梯度，图像边界
+使用到的函数有： cv2.Sobel()， cv2.Schar()， cv2.Laplacian()
+
+梯度简单来说就是求导，OpenCV 提供了三种不同的梯度滤波器，或者说高通滤波器： Sobel，Scharr 和 Laplacian。
+
+Sobel， Scharr 其实就是求一阶或二阶导数。 平均差分算子
+
+Scharr 是对 Sobel（使用小的卷积核求解求解梯度角度时）的优化。
+
+Laplacian 是求二阶导数。
+
