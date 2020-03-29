@@ -12,3 +12,15 @@ Scharr 是对 Sobel（使用小的卷积核求解求解梯度角度时）的优�
 
 Laplacian 是求二阶导数。
 
+一些参考
+
+RGB均衡化：https://www.jianshu.com/p/9a9000d226b6
+
+巴特沃斯滤波器：
+https://zh.wikipedia.org/wiki/%E5%B7%B4%E7%89%B9%E6%B2%83%E6%96%AF%E6%BB%A4%E6%B3%A2%E5%99%A8
+不同的阶数对应相应程度不同
+低通介绍：https://blog.csdn.net/horizon_zore/article/details/53129802
+低通介绍 & 高频增强滤波：https://blog.csdn.net/Enoch_klb/article/details/83653237
+Matlab 实现：
+https://ww2.mathworks.cn/matlabcentral/fileexchange/30946-butterworth-bandpass-filter-for-image-processing
+
