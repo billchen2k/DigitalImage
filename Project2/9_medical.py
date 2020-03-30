@@ -3,8 +3,6 @@ import numpy as np
 
 
 def ButterworthHighPass(img):
-	img = cv2.imread('input/9_input.jpg')
-	img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 	# 傅立叶变换
 	f = np.fft.fft2(img)
 	# 频移至中心
@@ -30,14 +28,12 @@ def ButterworthHighPass(img):
 
 def HighFrequencyEmphasis(img):
 	# 和 Butterworth 相比多了一步
-	img = cv2.imread('input/9_input.jpg')
-	img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 	# 傅立叶变换
 	f = np.fft.fft2(img)
 	# 频移至中心
 	img = np.fft.fftshift(f)
 	# 指定截止频率为宽度的 1.5 %
-	D0 = img.shape[0] * 0.015
+	D0 = img.shape[0] * 0.05
 	# 指定巴特沃斯滤波器的阶数
 	frac = 2
 	# 指定中点 (M, N)
@@ -48,7 +44,7 @@ def HighFrequencyEmphasis(img):
 			D = np.sqrt(np.square(u - M) + np.square(v - N))
 			H = 1 / (1 + np.power((D0 / D), 2 * frac))
 			# High Frequency Emphasis
-			H = 0.5 + 2.5 * H
+			H = 0.5 + 1.5 * H
 			img[u][v] = img[u][v] * H
 	cv2.imwrite('output/9_A_Processing.jpg', 20 * np.log(np.abs(img)), [int(cv2.IMWRITE_JPEG_QUALITY), 95])
 	# 逆傅立叶变换
@@ -68,6 +64,6 @@ B = ButterworthHighPass(img)
 cv2.imwrite('output/9_B.jpg', B, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
 C = HighFrequencyEmphasis(img)
 cv2.imwrite('output/9_C.jpg', C, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
-D = cv2.equalizeHist(img)
+D = equalizeHistogram(C)
 cv2.imwrite('output/9_D.jpg', D, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
 
