@@ -1,1 +1,3 @@
 https://zhuanlan.51cto.com/art/201710/553543.htm
+
+https://www.pyimagesearch.com/2017/08/14/long-exposure-with-opencv-and-python/
