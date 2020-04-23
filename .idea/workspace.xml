@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74aa5103-1be2-4147-aa57-76f783786b1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Project3/3.彩色与纹理检测/edge_detection_rgb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project3/3.彩色与纹理检测/edge_detection_texture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project3/3.彩色与纹理检测/reference.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/DigitalImage.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZnlJqKshxOyeyWRJBIozjym9mr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Project2" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Project2" />
+      <recent name="$PROJECT_DIR$/Project2/input" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Project2" />
+      <recent name="$PROJECT_DIR$/Project2/input" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.edge_detection_rgb">
+    <configuration name="6_edge_detection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DigitalImage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project2/6_edge_detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8_Canny" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DigitalImage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project2/8_Canny.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9_medical" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DigitalImage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project2/9_medical.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="DigitalImage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="draw_histogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DigitalImage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project2/draw_histogram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="edge_detection_rgb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DigitalImage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project3/3.彩色与纹理检测" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project3/3.彩色与纹理检测/edge_detection_rgb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.edge_detection_rgb" />
+        <item itemvalue="Python.9_medical" />
+        <item itemvalue="Python.6_edge_detection" />
+        <item itemvalue="Python.8_Canny" />
+        <item itemvalue="Python.draw_histogram" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74aa5103-1be2-4147-aa57-76f783786b1f" name="Default Changelist" comment="" />
+      <created>1585482160736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585482160736</updated>
+      <workItem from="1585482169752" duration="340000" />
+      <workItem from="1585482674896" duration="27000" />
+      <workItem from="1585482718969" duration="10402000" />
+      <workItem from="1585502950722" duration="12002000" />
+      <workItem from="1585637103917" duration="1724000" />
+      <workItem from="1585653107536" duration="1203000" />
+      <workItem from="1585709966679" duration="1070000" />
+      <workItem from="1585765359190" duration="961000" />
+      <workItem from="1585846766460" duration="548000" />
+      <workItem from="1585851365447" duration="597000" />
+      <workItem from="1585884660028" duration="2853000" />
+      <workItem from="1586075325034" duration="1160000" />
+      <workItem from="1586104536541" duration="597000" />
+      <workItem from="1586166355997" duration="230000" />
+      <workItem from="1586166611591" duration="14000" />
+      <workItem from="1587442828402" duration="4526000" />
+      <workItem from="1587516349482" duration="753000" />
+      <workItem from="1587519500099" duration="4838000" />
+    </task>
+    <task id="LOCAL-00001" summary="参数微调">
+      <created>1585543923111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585543923111</updated>
+    </task>
+    <task id="LOCAL-00002" summary="draw_histogram.py">
+      <created>1585710089001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585710089001</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="参数微调" />
+    <MESSAGE value="draw_histogram.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="draw_histogram.py" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="528" y="245" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585482690574">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state x="528" y="245" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1680.977@0.23.1680.977" timestamp="1585482690574" />
+    <state x="443" y="95" key="CommitChangelistDialog2" timestamp="1585710088801">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="443" y="95" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1585710088801" />
+    <state x="443" y="111" key="CommitChangelistDialog2/0.23.1680.974@0.23.1680.974" timestamp="1585543922872" />
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1585710039707">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585710039707" />
+    <state width="1201" height="354" key="GridCell.Tab.0.bottom" timestamp="1587633707513">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1253" height="278" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585886802209" />
+    <state width="1283" height="248" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1585544008925" />
+    <state width="1283" height="248" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585543416741" />
+    <state width="1283" height="328" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1585509939441" />
+    <state width="1201" height="354" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1587633707513" />
+    <state width="1201" height="354" key="GridCell.Tab.0.center" timestamp="1587633707512">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1253" height="278" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585886802208" />
+    <state width="1283" height="248" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1585544008924" />
+    <state width="1283" height="248" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585543416741" />
+    <state width="1283" height="328" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1585509939438" />
+    <state width="1201" height="354" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1587633707512" />
+    <state width="1201" height="354" key="GridCell.Tab.0.left" timestamp="1587633707512">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1253" height="278" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585886802208" />
+    <state width="1283" height="248" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1585544008924" />
+    <state width="1283" height="248" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585543416741" />
+    <state width="1283" height="328" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1585509939436" />
+    <state width="1201" height="354" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1587633707512" />
+    <state width="1201" height="354" key="GridCell.Tab.0.right" timestamp="1587633707513">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1253" height="278" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585886802209" />
+    <state width="1283" height="248" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1585544008924" />
+    <state width="1283" height="248" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585543416741" />
+    <state width="1283" height="328" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1585509939440" />
+    <state width="1201" height="354" key="GridCell.Tab.0.right/0.23.1680.977@0.23.1680.977" timestamp="1587633707513" />
+    <state width="1201" height="354" key="GridCell.Tab.1.bottom" timestamp="1587633707416">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1253" height="278" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585886802275" />
+    <state width="1283" height="248" key="GridCell.Tab.1.bottom/0.23.1680.974@0.23.1680.974" timestamp="1585544008924" />
+    <state width="1283" height="248" key="GridCell.Tab.1.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585543416866" />
+    <state width="1201" height="354" key="GridCell.Tab.1.bottom/0.23.1680.977@0.23.1680.977" timestamp="1587633707416" />
+    <state width="1201" height="354" key="GridCell.Tab.1.center" timestamp="1587633707415">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1253" height="278" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585886802274" />
+    <state width="1283" height="248" key="GridCell.Tab.1.center/0.23.1680.974@0.23.1680.974" timestamp="1585544008923" />
+    <state width="1283" height="248" key="GridCell.Tab.1.center/0.23.1680.975@0.23.1680.975" timestamp="1585543416864" />
+    <state width="1201" height="354" key="GridCell.Tab.1.center/0.23.1680.977@0.23.1680.977" timestamp="1587633707415" />
+    <state width="1201" height="354" key="GridCell.Tab.1.left" timestamp="1587633707414">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1253" height="278" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585886802265" />
+    <state width="1283" height="248" key="GridCell.Tab.1.left/0.23.1680.974@0.23.1680.974" timestamp="1585544008922" />
+    <state width="1283" height="248" key="GridCell.Tab.1.left/0.23.1680.975@0.23.1680.975" timestamp="1585543416862" />
+    <state width="1201" height="354" key="GridCell.Tab.1.left/0.23.1680.977@0.23.1680.977" timestamp="1587633707414" />
+    <state width="1201" height="354" key="GridCell.Tab.1.right" timestamp="1587633707415">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="1253" height="278" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585886802275" />
+    <state width="1283" height="248" key="GridCell.Tab.1.right/0.23.1680.974@0.23.1680.974" timestamp="1585544008923" />
+    <state width="1283" height="248" key="GridCell.Tab.1.right/0.23.1680.975@0.23.1680.975" timestamp="1585543416865" />
+    <state width="1201" height="354" key="GridCell.Tab.1.right/0.23.1680.977@0.23.1680.977" timestamp="1587633707415" />
+    <state x="378" y="125" key="SettingsEditor" timestamp="1587630020233">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state x="378" y="110" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1585765542640" />
+    <state x="378" y="125" key="SettingsEditor/0.23.1680.977@0.23.1680.977" timestamp="1587630020233" />
+    <state x="695" y="445" key="VCS.ChangelistChooser" timestamp="1585710075468">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="695" y="445" key="VCS.ChangelistChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1585710075468" />
+    <state x="440" y="246" key="Vcs.Push.Dialog.v2" timestamp="1585710100942">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="246" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1585710100942" />
+    <state x="440" y="251" key="Vcs.Push.Dialog.v2/0.23.1680.974@0.23.1680.974" timestamp="1585543933538" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1585502703386">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1585502703386" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DigitalImage$6_edge_detection.coverage" NAME="6_edge_detection Coverage Results" MODIFIED="1585502573075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project2" />
+    <SUITE FILE_PATH="coverage/DigitalImage$edge_detection_rgb.coverage" NAME="edge_detection_rgb Coverage Results" MODIFIED="1587633707373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project3/3.彩色与纹理检测" />
+    <SUITE FILE_PATH="coverage/DigitalImage$draw_histogram.coverage" NAME="draw_histogram Coverage Results" MODIFIED="1585491427033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project2" />
+    <SUITE FILE_PATH="coverage/DigitalImage$equalize_histogram.coverage" NAME="3_equalize_histogram Coverage Results" MODIFIED="1585488737109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project2" />
+    <SUITE FILE_PATH="coverage/DigitalImage$9_medical.coverage" NAME="9_medical Coverage Results" MODIFIED="1585886802187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project2" />
+    <SUITE FILE_PATH="coverage/DigitalImage$8_Canny.coverage" NAME="8_Canny Coverage Results" MODIFIED="1585491948656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project2" />
+    <SUITE FILE_PATH="coverage/DigitalImage$changesize.coverage" NAME="changesize Coverage Results" MODIFIED="1585482210798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project1" />
+  </component>
+</project>
