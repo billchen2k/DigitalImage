@@ -1,5 +1,6 @@
 import numpy as np
 import cv2
+import matplotlib.pyplot
 
 img = cv2.imread('纹理图像.jpg', cv2.IMREAD_GRAYSCALE)
 

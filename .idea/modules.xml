@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DigitalImage.iml" filepath="$PROJECT_DIR$/.idea/DigitalImage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ECNUInfoCrawl/.idea/ECNUInfoCrawl.iml" filepath="$PROJECT_DIR$/../ECNUInfoCrawl/.idea/ECNUInfoCrawl.iml" />
+      <module fileurl="file://$USER_HOME$/Workspace/seeyoubot/.idea/seeyoubot.iml" filepath="$USER_HOME$/Workspace/seeyoubot/.idea/seeyoubot.iml" />
     </modules>
   </component>
 </project>
