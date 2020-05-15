@@ -5,8 +5,9 @@ import matplotlib.pyplot as plt
 def unsharp_masking(input, ratio = 1.0, ksize = 9):
 	"""Return a sharpened version of the image, using an unsharp mask."""
 	blurred = cv2.GaussianBlur(input, (ksize, ksize), 0)
+	# 锐化后的图像 = 原图像 + ratio * （原图像 - 模糊图像）
 	sharpened = float(1 + ratio) * input- ratio * blurred
-	# Limit value between 0 and 1
+	# 限制值在 0 - 255 之间
 	sharpened = np.maximum(sharpened, np.zeros(sharpened.shape))
 	sharpened = np.minimum(sharpened, 255 * np.ones(sharpened.shape))
 	sharpened = sharpened.round().astype(np.uint8)
