@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74aa5103-1be2-4147-aa57-76f783786b1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Project4/report.tex" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ECNUInfoCrawl/.idea/ECNUInfoCrawl.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ECNUInfoCrawl/news/news_output_eng.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ECNUInfoCrawl/news/output/外语学院.docx" afterDir="false" />
@@ -68,6 +69,7 @@
       <change afterPath="$PROJECT_DIR$/../ECNUInfoCrawl/temp.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ECNUInfoCrawl/test.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ECNUInfoCrawl/wechat/wechatarticles/a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ECNUInfoCrawl/news/output/report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../ECNUInfoCrawl/news/output/report.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ECNUInfoCrawl/news/output/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ECNUInfoCrawl/news/output/text.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ECNUInfoCrawl/news/output/中国语言文学系.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../ECNUInfoCrawl/news/output/中国语言文学系.xlsx" afterDir="false" />
@@ -360,7 +362,7 @@
       <workItem from="1588994414249" duration="1243000" />
       <workItem from="1589273987962" duration="9312000" />
       <workItem from="1589350377667" duration="3703000" />
-      <workItem from="1589511251227" duration="4357000" />
+      <workItem from="1589511251227" duration="4944000" />
     </task>
     <task id="LOCAL-00001" summary="参数微调">
       <created>1585543923111</created>
