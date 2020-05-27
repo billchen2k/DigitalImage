@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74aa5103-1be2-4147-aa57-76f783786b1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Project4/report.tex" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ECNUInfoCrawl/.idea/ECNUInfoCrawl.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ECNUInfoCrawl/news/news_output_eng.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ECNUInfoCrawl/news/output/外语学院.docx" afterDir="false" />
@@ -363,6 +362,9 @@
       <workItem from="1589273987962" duration="9312000" />
       <workItem from="1589350377667" duration="3703000" />
       <workItem from="1589511251227" duration="4944000" />
+      <workItem from="1589693029412" duration="742000" />
+      <workItem from="1589713239599" duration="942000" />
+      <workItem from="1589982218574" duration="539000" />
     </task>
     <task id="LOCAL-00001" summary="参数微调">
       <created>1585543923111</created>
