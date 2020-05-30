@@ -4,6 +4,7 @@ import numpy as np
 from numpy import fft
 import math
 import cv2
+from skimage import color, data, restoration
 
 # 仿真运动模糊
 def motion_process(image_size, motion_angle):
@@ -48,10 +49,21 @@ def wiener(input, PSF, eps, K):
     PSF_fft_1 = np.conj(PSF_fft) / (np.abs(PSF_fft) ** 2 + K)
     result = fft.ifft2(input_fft * PSF_fft_1)
     result = np.abs(fft.fftshift(result))
+
     return result
 
+def recover_LR(image, psf):
+	"""
+	LR 算法
+	:param image: 原图像
+	:param H: PSF
+	:return: 恢复图像
+	"""
+	print("Richardson-Lucy Deconvolution...")
+	out = restoration.richardson_lucy(image / 255, psf, iterations=30)
+	return 255 * out
 
-image = cv2.imread('input_2_1.jpeg')
+image = cv2.imread('input/2_1.jpeg')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 img_h = image.shape[0]
 img_w = image.shape[1]
@@ -59,16 +71,20 @@ img_w = image.shape[1]
 #进行运动模糊处理
 PSF = motion_process((img_h, img_w), 60)
 blurred = np.abs(make_blurred(image, PSF, 1e-3))
-cv2.imwrite('output_2_motion_process.jpg', blurred, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
+cv2.imwrite('output/2_motion_process.jpg', blurred, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
 
 #逆滤波
 result = inverse(blurred, PSF, 1e-3)
-cv2.imwrite('output_2_inverse.jpg', result, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
+cv2.imwrite('output/2_inverse.jpg', result, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
 
 #维纳滤波
 result = wiener(blurred, PSF, 1e-3,0.01)
-cv2.imwrite('output_2_wiener_01.jpg', result, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
+cv2.imwrite('output/2_wiener_01.jpg', result, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
 result = wiener(blurred, PSF, 1e-3,0.1)
-cv2.imwrite('output_2_wiener_1.jpg', result, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
+cv2.imwrite('output/2_wiener_1.jpg', result, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
 result = wiener(blurred, PSF, 1e-3,0.001)
-cv2.imwrite('output_2_wiener_001.jpg', result, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
+cv2.imwrite('output/2_wiener_001.jpg', result, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
+
+# # LR 算法
+# result = recover_LR(blurred, PSF)
+# cv2.imwrite('output/2_LR.jpg', result, [int(cv2.IMWRITE_JPEG_QUALITY), 95])

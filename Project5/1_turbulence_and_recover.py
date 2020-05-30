@@ -4,6 +4,7 @@ from numpy import fft
 import cv2
 import time
 
+
 # 退化函数，用于逆滤波
 Huv = 0
 
@@ -111,11 +112,11 @@ def recover_CLSF(image, H, gamma = 0.01):
 	return cv2.merge(out)
 
 
+
 start = time.time()
 image = cv2.imread('input/1.1.jpg')
 result = turbulence(image)
 cv2.imwrite('output/1.1_turbulence.jpg', result, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
-
 
 # 添加高斯噪声
 raw = add_noise_gussian(result)
@@ -133,8 +134,10 @@ cv2.imwrite('output/1.1_recovered_CLS_gamma0.jpg', recoveredCLS, [int(cv2.IMWRIT
 recoveredCLS = recover_CLSF(result, Huv, gamma=0.001)
 cv2.imwrite('output/1.1_recovered_CLS_nonoise.jpg', recoveredCLS, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
 
+# L-R 滤波
+recoveredLR = recover_LR(result, Huv)
+cv2.imwrite('output/1.1_recovered_LR.jpg', recoveredLR, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
+
 
 cv2.imwrite('output/turbulence_H.jpg', np.real(Huv) * 255, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
-
-
 print("Finished. Time usage {}s.".format(time.time() - start))
