@@ -118,6 +118,14 @@ image = cv2.imread('input/1.1.jpg')
 result = turbulence(image)
 cv2.imwrite('output/1.1_turbulence.jpg', result, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
 
+image = cv2.imread('input/1.1.jpg')
+result = turbulence(image, k=0.001)
+cv2.imwrite('output/1.1_turbulence_0.001.jpg', result, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
+
+image = cv2.imread('input/1.1.jpg')
+result = turbulence(image, k=0.01)
+cv2.imwrite('output/1.1_turbulence_0.01.jpg', result, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
+
 # 添加高斯噪声
 raw = add_noise_gussian(result)
 cv2.imwrite('output/1.1_turbulence_noise.jpg', raw, [int(cv2.IMWRITE_JPEG_QUALITY), 95])

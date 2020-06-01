@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74aa5103-1be2-4147-aa57-76f783786b1f" name="Default Changelist" comment="* Rearrange files.">
-      <change beforePath="$PROJECT_DIR$/.idea/DigitalImage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DigitalImage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project5/1_turbulence_and_recover.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project5/1_turbulence_and_recover.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -96,7 +95,7 @@
       <recent name="$PROJECT_DIR$/Project2/input" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2_motion_and_recover">
+  <component name="RunManager" selected="Python.1_turbulence_and_recover">
     <configuration name="1_turbulence_and_recover" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DigitalImage" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,8 +237,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2_motion_and_recover" />
         <item itemvalue="Python.1_turbulence_and_recover" />
+        <item itemvalue="Python.2_motion_and_recover" />
         <item itemvalue="Python.lrski" />
         <item itemvalue="Python.3.3_affine_transformation" />
         <item itemvalue="Python.2.1_dilation_erosion" />
@@ -313,6 +312,7 @@
       <workItem from="1590751702561" duration="9034000" />
       <workItem from="1590822068474" duration="25000" />
       <workItem from="1590822106247" duration="3679000" />
+      <workItem from="1590936259229" duration="1519000" />
     </task>
     <task id="LOCAL-00001" summary="参数微调">
       <created>1585543923111</created>
@@ -409,37 +409,37 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="558" y="254" key="EnvironmentVariablesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590824678357" />
-    <state width="1377" height="322" key="GridCell.Tab.0.bottom" timestamp="1590825578562">
+    <state width="1307" height="322" key="GridCell.Tab.0.bottom" timestamp="1590941655927">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1377" height="322" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590825578562" />
+    <state width="1307" height="322" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590941655927" />
     <state width="1308" height="347" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1589346670250" />
     <state width="1308" height="347" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1589285858052" />
     <state width="1389" height="249" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1590815746002" />
     <state width="1283" height="328" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1585509939441" />
     <state width="795" height="354" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1587871216435" />
-    <state width="1377" height="322" key="GridCell.Tab.0.center" timestamp="1590825578561">
+    <state width="1307" height="322" key="GridCell.Tab.0.center" timestamp="1590941655926">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1377" height="322" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590825578561" />
+    <state width="1307" height="322" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590941655926" />
     <state width="1308" height="347" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1589346670249" />
     <state width="1308" height="347" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1589285858050" />
     <state width="1389" height="249" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1590815746001" />
     <state width="1283" height="328" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1585509939438" />
     <state width="795" height="354" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1587871216434" />
-    <state width="1377" height="322" key="GridCell.Tab.0.left" timestamp="1590825578561">
+    <state width="1307" height="322" key="GridCell.Tab.0.left" timestamp="1590941655924">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1377" height="322" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590825578561" />
+    <state width="1307" height="322" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590941655924" />
     <state width="1308" height="347" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1589346670248" />
     <state width="1308" height="347" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1589285858049" />
     <state width="1389" height="249" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1590815746000" />
     <state width="1283" height="328" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1585509939436" />
     <state width="795" height="354" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1587871216434" />
-    <state width="1377" height="322" key="GridCell.Tab.0.right" timestamp="1590825578562">
+    <state width="1307" height="322" key="GridCell.Tab.0.right" timestamp="1590941655927">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1377" height="322" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590825578562" />
+    <state width="1307" height="322" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590941655927" />
     <state width="1308" height="347" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1589346670249" />
     <state width="1308" height="347" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1589285858051" />
     <state width="1389" height="249" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1590815746001" />
@@ -481,10 +481,10 @@
     <state width="1389" height="249" key="GridCell.Tab.1.right/0.23.1680.975@0.23.1680.975" timestamp="1590815743094" />
     <state width="1186" height="364" key="GridCell.Tab.1.right/0.23.1680.976@0.23.1680.976" timestamp="1590750434316" />
     <state width="795" height="354" key="GridCell.Tab.1.right/0.23.1680.977@0.23.1680.977" timestamp="1587871216437" />
-    <state x="138" y="205" key="SettingsEditor" timestamp="1590823681413">
+    <state x="138" y="205" key="SettingsEditor" timestamp="1590936441653">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="138" y="205" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1590823681413" />
+    <state x="138" y="205" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1590936441653" />
     <state x="501" y="28" key="SettingsEditor/0.23.1680.976@0.23.1680.976" timestamp="1590745306303" />
     <state x="378" y="125" key="SettingsEditor/0.23.1680.977@0.23.1680.977" timestamp="1587837372364" />
     <state x="695" y="445" key="VCS.ChangelistChooser" timestamp="1585710075468">
@@ -530,7 +530,7 @@
     <SUITE FILE_PATH="coverage/DigitalImage$1_3_unsharp_masking.coverage" NAME="1.3_unsharp_masking Coverage Results" MODIFIED="1589277177452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project4" />
     <SUITE FILE_PATH="coverage/DigitalImage$3_3_affine_transformation.coverage" NAME="3.3_affine_transformation Coverage Results" MODIFIED="1589286027984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project4" />
     <SUITE FILE_PATH="coverage/DigitalImage$2_motion_and_recover.coverage" NAME="2_motion_and_recover Coverage Results" MODIFIED="1590825578479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project5" />
-    <SUITE FILE_PATH="coverage/DigitalImage$1_turbulence_and_recover.coverage" NAME="1_turbulence_and_recover Coverage Results" MODIFIED="1590824825704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project5" />
+    <SUITE FILE_PATH="coverage/DigitalImage$1_turbulence_and_recover.coverage" NAME="1_turbulence_and_recover Coverage Results" MODIFIED="1590941655140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project5" />
     <SUITE FILE_PATH="coverage/DigitalImage$edge_detection_texture.coverage" NAME="edge_detection_texture Coverage Results" MODIFIED="1587645121955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project3/3.彩色与纹理检测" />
     <SUITE FILE_PATH="coverage/DigitalImage$edge_detection_rgb.coverage" NAME="edge_detection_rgb Coverage Results" MODIFIED="1587634355861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project3/3.彩色与纹理检测" />
     <SUITE FILE_PATH="coverage/DigitalImage$fetchData.coverage" NAME="fetchData Coverage Results" MODIFIED="1587838592051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Workspace/Covid19Modeling" />
