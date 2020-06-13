@@ -20,8 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74aa5103-1be2-4147-aa57-76f783786b1f" name="Default Changelist" comment="* Rearrange files.">
+      <change afterPath="$PROJECT_DIR$/Project6/1_dwt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/2_denoise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/3_fuse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/input/1_input.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/input/2_input.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/input/2_input2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/input/3_A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/input/3_B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/input/3_input1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/input/3_input2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/output/2_output2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/output/2_output_noise.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/output/2_output_noise_corrected.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/output/3_final1-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/output/3_final2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/output/3_finalA-B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/output/3_finalB-A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/~$实验六 文档.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project6/实验六 文档.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project5/1_turbulence_and_recover.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project5/1_turbulence_and_recover.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +98,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -88,14 +106,36 @@
       <recent name="$PROJECT_DIR$/Project2/input" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Project6/input" />
+      <recent name="$PROJECT_DIR$/Project6" />
+      <recent name="$PROJECT_DIR$/Project6/output" />
       <recent name="$PROJECT_DIR$/Project5/input" />
       <recent name="$PROJECT_DIR$/Project5" />
-      <recent name="$USER_HOME$/Workspace/Covid19Modeling/references" />
-      <recent name="$PROJECT_DIR$/Project2" />
-      <recent name="$PROJECT_DIR$/Project2/input" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1_turbulence_and_recover">
+  <component name="RunManager" selected="Python.1_dwt">
+    <configuration name="1_dwt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DigitalImage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project6/1_dwt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="1_turbulence_and_recover" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DigitalImage" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2.1_dilation_erosion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2_denoise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DigitalImage" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,12 +166,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project4/2.1_dilation_erosion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project6/2_denoise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2_motion_and_recover" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3_fuse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DigitalImage" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,12 +188,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project5/2_motion_and_recover.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project6/3_fuse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +202,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3.3_affine_transformation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DigitalImage" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,12 +210,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project4" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/opt/anaconda3/envs/tf/lib/python3.7/site-packages/PIL" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project4/3.3_affine_transformation.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/opt/anaconda3/envs/tf/lib/python3.7/site-packages/PIL/Image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,42 +246,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lrski" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DigitalImage" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project5/lrski.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.1_turbulence_and_recover" />
-      <item itemvalue="Python.2.1_dilation_erosion" />
-      <item itemvalue="Python.2_motion_and_recover" />
-      <item itemvalue="Python.3.3_affine_transformation" />
-      <item itemvalue="Python.lrski" />
+      <item itemvalue="Python.2_denoise" />
+      <item itemvalue="Python.3_fuse" />
+      <item itemvalue="Python.Image" />
+      <item itemvalue="Python.1_dwt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_dwt" />
+        <item itemvalue="Python.3_fuse" />
+        <item itemvalue="Python.Image" />
+        <item itemvalue="Python.2_denoise" />
         <item itemvalue="Python.1_turbulence_and_recover" />
-        <item itemvalue="Python.2_motion_and_recover" />
-        <item itemvalue="Python.lrski" />
-        <item itemvalue="Python.3.3_affine_transformation" />
-        <item itemvalue="Python.2.1_dilation_erosion" />
       </list>
     </recent_temporary>
   </component>
@@ -313,6 +331,9 @@
       <workItem from="1590822068474" duration="25000" />
       <workItem from="1590822106247" duration="3679000" />
       <workItem from="1590936259229" duration="1519000" />
+      <workItem from="1592020151988" duration="168000" />
+      <workItem from="1592020490422" duration="633000" />
+      <workItem from="1592033703751" duration="7027000" />
     </task>
     <task id="LOCAL-00001" summary="参数微调">
       <created>1585543923111</created>
@@ -391,10 +412,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590824698675" />
-    <state x="528" y="239" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1590575097682">
+    <state x="528" y="239" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1592020359411">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="528" y="239" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590575097682" />
+    <state x="528" y="239" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1592020359411" />
     <state x="528" y="245" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1680.977@0.23.1680.977" timestamp="1585482690574" />
     <state x="443" y="95" key="CommitChangelistDialog2" timestamp="1585710088801">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -409,82 +430,82 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="558" y="254" key="EnvironmentVariablesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590824678357" />
-    <state width="1307" height="322" key="GridCell.Tab.0.bottom" timestamp="1590941655927">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1283" height="355" key="GridCell.Tab.0.bottom" timestamp="1592050813572">
+      <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1307" height="322" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590941655927" />
+    <state width="1283" height="322" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1592035201930" />
     <state width="1308" height="347" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1589346670250" />
     <state width="1308" height="347" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1589285858052" />
-    <state width="1389" height="249" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1590815746002" />
+    <state width="1283" height="355" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1592050813572" />
     <state width="1283" height="328" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1585509939441" />
     <state width="795" height="354" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1587871216435" />
-    <state width="1307" height="322" key="GridCell.Tab.0.center" timestamp="1590941655926">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1283" height="355" key="GridCell.Tab.0.center" timestamp="1592050813571">
+      <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1307" height="322" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590941655926" />
+    <state width="1283" height="322" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1592035201929" />
     <state width="1308" height="347" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1589346670249" />
     <state width="1308" height="347" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1589285858050" />
-    <state width="1389" height="249" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1590815746001" />
+    <state width="1283" height="355" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1592050813571" />
     <state width="1283" height="328" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1585509939438" />
     <state width="795" height="354" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1587871216434" />
-    <state width="1307" height="322" key="GridCell.Tab.0.left" timestamp="1590941655924">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1283" height="355" key="GridCell.Tab.0.left" timestamp="1592050813570">
+      <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1307" height="322" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590941655924" />
+    <state width="1283" height="322" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1592035201929" />
     <state width="1308" height="347" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1589346670248" />
     <state width="1308" height="347" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1589285858049" />
-    <state width="1389" height="249" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1590815746000" />
+    <state width="1283" height="355" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1592050813570" />
     <state width="1283" height="328" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1585509939436" />
     <state width="795" height="354" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1587871216434" />
-    <state width="1307" height="322" key="GridCell.Tab.0.right" timestamp="1590941655927">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1283" height="355" key="GridCell.Tab.0.right" timestamp="1592050813572">
+      <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1307" height="322" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590941655927" />
+    <state width="1283" height="322" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1592035201930" />
     <state width="1308" height="347" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1589346670249" />
     <state width="1308" height="347" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1589285858051" />
-    <state width="1389" height="249" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1590815746001" />
+    <state width="1283" height="355" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1592050813572" />
     <state width="1283" height="328" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1585509939440" />
     <state width="795" height="354" key="GridCell.Tab.0.right/0.23.1680.977@0.23.1680.977" timestamp="1587871216435" />
-    <state width="1377" height="322" key="GridCell.Tab.1.bottom" timestamp="1590825578504">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1283" height="355" key="GridCell.Tab.1.bottom" timestamp="1592050813506">
+      <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1377" height="322" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590825578504" />
+    <state width="1283" height="322" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1592035202941" />
     <state width="1308" height="347" key="GridCell.Tab.1.bottom/0.23.1680.973@0.23.1680.973" timestamp="1589346670267" />
     <state width="1308" height="347" key="GridCell.Tab.1.bottom/0.23.1680.974@0.23.1680.974" timestamp="1589285857874" />
-    <state width="1389" height="249" key="GridCell.Tab.1.bottom/0.23.1680.975@0.23.1680.975" timestamp="1590815743094" />
+    <state width="1283" height="355" key="GridCell.Tab.1.bottom/0.23.1680.975@0.23.1680.975" timestamp="1592050813506" />
     <state width="1186" height="364" key="GridCell.Tab.1.bottom/0.23.1680.976@0.23.1680.976" timestamp="1590750434317" />
     <state width="795" height="354" key="GridCell.Tab.1.bottom/0.23.1680.977@0.23.1680.977" timestamp="1587871216438" />
-    <state width="1377" height="322" key="GridCell.Tab.1.center" timestamp="1590825578503">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1283" height="355" key="GridCell.Tab.1.center" timestamp="1592050813505">
+      <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1377" height="322" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590825578503" />
+    <state width="1283" height="322" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1592035202940" />
     <state width="1308" height="347" key="GridCell.Tab.1.center/0.23.1680.973@0.23.1680.973" timestamp="1589346670251" />
     <state width="1308" height="347" key="GridCell.Tab.1.center/0.23.1680.974@0.23.1680.974" timestamp="1589285857872" />
-    <state width="1389" height="249" key="GridCell.Tab.1.center/0.23.1680.975@0.23.1680.975" timestamp="1590815743094" />
+    <state width="1283" height="355" key="GridCell.Tab.1.center/0.23.1680.975@0.23.1680.975" timestamp="1592050813505" />
     <state width="1186" height="364" key="GridCell.Tab.1.center/0.23.1680.976@0.23.1680.976" timestamp="1590750434316" />
     <state width="795" height="354" key="GridCell.Tab.1.center/0.23.1680.977@0.23.1680.977" timestamp="1587871216437" />
-    <state width="1377" height="322" key="GridCell.Tab.1.left" timestamp="1590825578503">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1283" height="355" key="GridCell.Tab.1.left" timestamp="1592050813505">
+      <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1377" height="322" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590825578503" />
+    <state width="1283" height="322" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1592035202940" />
     <state width="1308" height="347" key="GridCell.Tab.1.left/0.23.1680.973@0.23.1680.973" timestamp="1589346670250" />
     <state width="1308" height="347" key="GridCell.Tab.1.left/0.23.1680.974@0.23.1680.974" timestamp="1589285857870" />
-    <state width="1389" height="249" key="GridCell.Tab.1.left/0.23.1680.975@0.23.1680.975" timestamp="1590815743093" />
+    <state width="1283" height="355" key="GridCell.Tab.1.left/0.23.1680.975@0.23.1680.975" timestamp="1592050813505" />
     <state width="1186" height="364" key="GridCell.Tab.1.left/0.23.1680.976@0.23.1680.976" timestamp="1590750434315" />
     <state width="795" height="354" key="GridCell.Tab.1.left/0.23.1680.977@0.23.1680.977" timestamp="1587871216436" />
-    <state width="1377" height="322" key="GridCell.Tab.1.right" timestamp="1590825578504">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1283" height="355" key="GridCell.Tab.1.right" timestamp="1592050813505">
+      <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1377" height="322" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590825578504" />
+    <state width="1283" height="322" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1592035202941" />
     <state width="1308" height="347" key="GridCell.Tab.1.right/0.23.1680.973@0.23.1680.973" timestamp="1589346670251" />
     <state width="1308" height="347" key="GridCell.Tab.1.right/0.23.1680.974@0.23.1680.974" timestamp="1589285857873" />
-    <state width="1389" height="249" key="GridCell.Tab.1.right/0.23.1680.975@0.23.1680.975" timestamp="1590815743094" />
+    <state width="1283" height="355" key="GridCell.Tab.1.right/0.23.1680.975@0.23.1680.975" timestamp="1592050813505" />
     <state width="1186" height="364" key="GridCell.Tab.1.right/0.23.1680.976@0.23.1680.976" timestamp="1590750434316" />
     <state width="795" height="354" key="GridCell.Tab.1.right/0.23.1680.977@0.23.1680.977" timestamp="1587871216437" />
-    <state x="138" y="205" key="SettingsEditor" timestamp="1590936441653">
+    <state x="138" y="205" key="SettingsEditor" timestamp="1592034469332">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="138" y="205" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1590936441653" />
+    <state x="138" y="205" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1592034469332" />
     <state x="501" y="28" key="SettingsEditor/0.23.1680.976@0.23.1680.976" timestamp="1590745306303" />
     <state x="378" y="125" key="SettingsEditor/0.23.1680.977@0.23.1680.977" timestamp="1587837372364" />
     <state x="695" y="445" key="VCS.ChangelistChooser" timestamp="1585710075468">
@@ -518,11 +539,18 @@
           <line>16</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Project6/3_fuse.py</url>
+          <line>176</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DigitalImage$1_dwt.coverage" NAME="1_dwt Coverage Results" MODIFIED="1592050974153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project6" />
     <SUITE FILE_PATH="coverage/DigitalImage$6_edge_detection.coverage" NAME="6_edge_detection Coverage Results" MODIFIED="1585502573075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project2" />
+    <SUITE FILE_PATH="coverage/DigitalImage$3_fuse.coverage" NAME="3_fuse Coverage Results" MODIFIED="1592035201841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project6" />
     <SUITE FILE_PATH="coverage/DigitalImage$draw_histogram.coverage" NAME="draw_histogram Coverage Results" MODIFIED="1585491427033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project2" />
     <SUITE FILE_PATH="coverage/DigitalImage$equalize_histogram.coverage" NAME="3_equalize_histogram Coverage Results" MODIFIED="1585488737109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project2" />
     <SUITE FILE_PATH="coverage/DigitalImage$8_Canny.coverage" NAME="8_Canny Coverage Results" MODIFIED="1585491948656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project2" />
@@ -533,11 +561,13 @@
     <SUITE FILE_PATH="coverage/DigitalImage$1_turbulence_and_recover.coverage" NAME="1_turbulence_and_recover Coverage Results" MODIFIED="1590941655140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project5" />
     <SUITE FILE_PATH="coverage/DigitalImage$edge_detection_texture.coverage" NAME="edge_detection_texture Coverage Results" MODIFIED="1587645121955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project3/3.彩色与纹理检测" />
     <SUITE FILE_PATH="coverage/DigitalImage$edge_detection_rgb.coverage" NAME="edge_detection_rgb Coverage Results" MODIFIED="1587634355861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project3/3.彩色与纹理检测" />
+    <SUITE FILE_PATH="coverage/DigitalImage$Image.coverage" NAME="Image Coverage Results" MODIFIED="1592034330647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/opt/anaconda3/envs/tf/lib/python3.7/site-packages/PIL" />
     <SUITE FILE_PATH="coverage/DigitalImage$fetchData.coverage" NAME="fetchData Coverage Results" MODIFIED="1587838592051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Workspace/Covid19Modeling" />
     <SUITE FILE_PATH="coverage/DigitalImage$9_medical.coverage" NAME="9_medical Coverage Results" MODIFIED="1585886802187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project2" />
     <SUITE FILE_PATH="coverage/DigitalImage$lrski.coverage" NAME="lrski Coverage Results" MODIFIED="1590823507599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project5" />
     <SUITE FILE_PATH="coverage/DigitalImage$2_1_dilation_erosion.coverage" NAME="2.1_dilation_erosion Coverage Results" MODIFIED="1589279076325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project4" />
     <SUITE FILE_PATH="coverage/DigitalImage$1_tturbulence.coverage" NAME="1_tturbulence Coverage Results" MODIFIED="1590680541112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project5" />
+    <SUITE FILE_PATH="coverage/DigitalImage$2_denoise.coverage" NAME="2_denoise Coverage Results" MODIFIED="1592021268136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project6" />
     <SUITE FILE_PATH="coverage/DigitalImage$changesize.coverage" NAME="changesize Coverage Results" MODIFIED="1585482210798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project1" />
   </component>
 </project>
